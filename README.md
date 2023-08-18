@@ -20,7 +20,7 @@
 
 * Untuk dokumentasi melalui postman dapat dilihat melalui link berikut :
     ```
-    https://documenter.getpostman.com/view/24743050/2s9XxsUw2j
+    https://documenter.getpostman.com/view/24743050/2s9XxsUw2j#141b58c5-5331-4b4a-a460-ccde615d5429
     ```
 
 ## Database Structure
