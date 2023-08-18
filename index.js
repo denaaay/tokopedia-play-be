@@ -20,7 +20,7 @@ db.once('connected', () => {
 
 const routes = require('./routes/routes');
 const app = express();
-app.use(cors())
+app.use(cors()); // Mengizinkan akses dari semua domain
 
 app.use(cookieParser());
 app.use(session({
@@ -38,4 +38,4 @@ app.use('/api', routes);
 
 app.listen(process.env.PORT, () => {
     console.log(`server run on port ${process.env.PORT}`);
-})
+});
