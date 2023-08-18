@@ -38,7 +38,8 @@
     ```
     {
         "_id": ObjectId,
-        "url": String,
+        "url_video": String,
+        "url_thumbnail": String,
     }
     ```
 
@@ -191,7 +192,8 @@
 * Request Body :
     ```
     {
-        "url": "https://www.google.com/image"
+        "url_video": "https://youtu.be/kzi37atRshI",
+        "url_thumbnail": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/6/22/d732332e-7d12-4851-8488-7278b2e65410.jpg"
     }
     ```
 * Response :
@@ -200,7 +202,8 @@
         "status_code": 201,
         "message": "success creating videos",
         "data": {
-            "url": "https://www.google.com/image",
+            "url_video": "https://youtu.be/kzi37atRshI",
+            "url_thumbnail": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/6/22/d732332e-7d12-4851-8488-7278b2e65410.jpg",
             "_id": "64c33a6e4381a2ce0aa6495f",
             "__v": 0
         }
@@ -218,7 +221,8 @@
         "data": [
             {
                 "_id": "64c2c35e52d9c2c441680c32",
-                "url": "https://www.google.com/image",
+                "url_video": "https://youtu.be/kzi37atRshI",
+                "url_thumbnail": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/6/22/d732332e-7d12-4851-8488-7278b2e65410.jpg"
                 "__v": 0
             }
         ]
@@ -239,7 +243,8 @@
         "message": "success getting videos by id",
         "data": {
             "_id": "64c2c35e52d9c2c441680c32",
-            "url": "https://www.google.com/image",
+            "url_video": "https://youtu.be/kzi37atRshI",
+            "url_thumbnail": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/6/22/d732332e-7d12-4851-8488-7278b2e65410.jpg"
             "__v": 0
         }
     }
@@ -295,7 +300,8 @@
                 "link": "www.buku.com",
                 "video": {
                     "_id": "64c2c35e52d9c2c441680c32",
-                    "url": "https://www.google.com/image",
+                    "url_video": "https://youtu.be/kzi37atRshI",
+                    "url_thumbnail": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/6/22/d732332e-7d12-4851-8488-7278b2e65410.jpg"
                     "__v": 0
                 },
                 "__v": 0
@@ -355,7 +361,8 @@
                 },
                 "video": {
                     "_id": "64c2c35e52d9c2c441680c32",
-                    "url": "https://www.google.com/image"
+                    "url_video": "https://youtu.be/kzi37atRshI",
+                    "url_thumbnail": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/6/22/d732332e-7d12-4851-8488-7278b2e65410.jpg"
                 },
                 "createdAt": "2023-07-28T01:10:37.674Z",
                 "updatedAt": "2023-07-28T01:10:37.674Z",
